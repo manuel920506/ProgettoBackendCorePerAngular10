@@ -1,0 +1,3 @@
+﻿##Note Migrazione
+1-Add-Migration Iniziale
+2-Update-database
