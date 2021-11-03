@@ -1,0 +1,42 @@
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.exe
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.deps.json
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.runtimeconfig.json
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.runtimeconfig.dev.json
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.dll
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.pdb
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.csproj.AssemblyReference.cache
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.AssemblyInfoInputs.cache
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.AssemblyInfo.cs
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\staticwebassets\provaBackEnd.StaticWebAssets.Manifest.cache
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\staticwebassets\provaBackEnd.StaticWebAssets.xml
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\scopedcss\bundle\provaBackEnd.styles.css
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.dll
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.pdb
+C:\Users\mrodriguez\source\repos\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.genruntimeconfig.cache
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.exe
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.deps.json
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.runtimeconfig.json
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.runtimeconfig.dev.json
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.dll
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\provaBackEnd.pdb
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.csproj.AssemblyReference.cache
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.AssemblyInfoInputs.cache
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.AssemblyInfo.cs
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\staticwebassets\provaBackEnd.StaticWebAssets.Manifest.cache
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\staticwebassets\provaBackEnd.StaticWebAssets.xml
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\scopedcss\bundle\provaBackEnd.styles.css
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.RazorTargetAssemblyInfo.cache
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.dll
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.pdb
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.genruntimeconfig.cache
