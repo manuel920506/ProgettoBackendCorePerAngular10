@@ -12,6 +12,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks; 
 using Microsoft.EntityFrameworkCore;
+using provaBackEnd.Domain.IRepositories;
+using provaBackEnd.Persistence.Repositories;
+using provaBackEnd.Domain.IServices;
+using provaBackEnd.Services;
 
 namespace provaBackEnd
 {
@@ -28,7 +32,9 @@ namespace provaBackEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("Connessione")));
+                options.UseSqlServer(Configuration.GetConnectionString("Connessione")));
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserService, UserService>();
             services.AddControllers();
         }
 
