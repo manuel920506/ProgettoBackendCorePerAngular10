@@ -20,10 +20,15 @@ namespace provaBackEnd.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(User user)
+        public async Task<IActionResult> Post([FromBody] User user)
         {
             try
             {
+                bool validateExistence = await _userService.ValidateExistence(user);
+                if (validateExistence)
+                {
+                    return BadRequest(new { message = "User " + user.UserNAme + " already exists" });
+                } 
                 await _userService.SaveUser(user);
                 return Ok(new { message = "Successfully registered user!" });
             }

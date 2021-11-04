@@ -20,5 +20,11 @@ namespace provaBackEnd.Services
         {
             await _userRepository.SaveUser(user);
         }
+
+        public async Task<bool> ValidateExistence(User user)
+        {
+            bool response = await _userRepository.ValidateExistence(user);
+            return response;
+        }
     }
 }

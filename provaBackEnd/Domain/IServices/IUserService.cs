@@ -9,5 +9,6 @@ namespace provaBackEnd.Domain.IServices
     public interface IUserService
     {
         Task SaveUser(User user);
+        Task<bool> ValidateExistence(User user);
     }
 }

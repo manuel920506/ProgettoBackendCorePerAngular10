@@ -1,4 +1,5 @@
-﻿using provaBackEnd.Domain.IRepositories;
+﻿using Microsoft.EntityFrameworkCore;
+using provaBackEnd.Domain.IRepositories;
 using provaBackEnd.Domain.Models;
 using provaBackEnd.Persistence.Context;
 using System;
@@ -20,6 +21,11 @@ namespace provaBackEnd.Persistence.Repositories
         {
             _context.Add(user);
             await _context.SaveChangesAsync();
+        }
+        public async Task<bool> ValidateExistence(User user)
+        {
+            bool response = await _context.Users.AnyAsync(u => u.UserNAme == user.UserNAme);
+            return response;
         }
     }
 }
