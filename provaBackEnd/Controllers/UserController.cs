@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using provaBackEnd.Domain.IServices;
 using provaBackEnd.Domain.Models;
+using provaBackEnd.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +29,8 @@ namespace provaBackEnd.Controllers
                 if (validateExistence)
                 {
                     return BadRequest(new { message = "User " + user.UserNAme + " already exists" });
-                } 
+                }
+                user.Password = Encrypt.EncryptPassword(user.Password);
                 await _userService.SaveUser(user);
                 return Ok(new { message = "Successfully registered user!" });
             }
