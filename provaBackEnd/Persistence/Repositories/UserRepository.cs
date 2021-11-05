@@ -22,10 +22,23 @@ namespace provaBackEnd.Persistence.Repositories
             _context.Add(user);
             await _context.SaveChangesAsync();
         }
+
         public async Task<bool> ValidateExistence(User user)
         {
             bool response = await _context.Users.AnyAsync(u => u.UserNAme == user.UserNAme);
             return response;
+        }
+
+        public async Task<User> ValidatePassword(int userId, string lastPassword)
+        {
+            User response = await _context.Users.Where(x => x.Id == userId && x.Password == lastPassword).FirstOrDefaultAsync(); 
+            return response;
+        }
+
+        public async Task UpdatePassword(User user)
+        {
+            _context.Update(user);
+            await _context.SaveChangesAsync();
         }
     }
 }

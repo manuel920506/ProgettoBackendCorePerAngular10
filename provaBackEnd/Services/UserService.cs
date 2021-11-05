@@ -26,5 +26,16 @@ namespace provaBackEnd.Services
             bool response = await _userRepository.ValidateExistence(user);
             return response;
         }
+
+        public async Task<User> ValidatePassword(int userId, string lastPassword)
+        {
+            User response = await _userRepository.ValidatePassword(userId, lastPassword);
+            return response;
+        }
+
+        public async Task UpdatePassword(User user)
+        {
+            await _userRepository.UpdatePassword(user); 
+        }
     }
 }

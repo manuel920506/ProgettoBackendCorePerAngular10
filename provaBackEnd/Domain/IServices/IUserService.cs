@@ -10,5 +10,7 @@ namespace provaBackEnd.Domain.IServices
     {
         Task SaveUser(User user);
         Task<bool> ValidateExistence(User user);
+        Task<User> ValidatePassword(int userId, string lastPassword);
+        Task UpdatePassword(User user);
     }
 }
