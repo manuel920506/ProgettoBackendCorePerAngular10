@@ -32,9 +32,16 @@ namespace provaBackEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("Connessione")));
-            services.AddScoped<IUserRepository, UserRepository>();
+                options.UseSqlServer(Configuration.GetConnectionString("Connessione"))); 
+
+            //Service
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped <ILoginService, LoginService>();
+
+            //Repository
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ILoginRepository, LoginRepository>();
+
             services.AddControllers();
         }
 
