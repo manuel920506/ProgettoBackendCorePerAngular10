@@ -42,6 +42,13 @@ namespace provaBackEnd
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ILoginRepository, LoginRepository>();
 
+            //Cors
+            services.AddCors(options => options.AddPolicy("AllowWebApp",
+                builder => builder.AllowAnyOrigin()
+                                  .AllowAnyHeader()
+                                  .AllowAnyMethod()
+                ));
+
             services.AddControllers();
         }
 
@@ -54,6 +61,8 @@ namespace provaBackEnd
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("AllowWebApp");
 
             app.UseRouting();
 
