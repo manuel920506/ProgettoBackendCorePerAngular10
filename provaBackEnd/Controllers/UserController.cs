@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using provaBackEnd.Domain.IServices;
 using provaBackEnd.Domain.Models;
@@ -7,6 +9,7 @@ using provaBackEnd.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace provaBackEnd.Controllers
@@ -43,17 +46,19 @@ namespace provaBackEnd.Controllers
 
         //localhost:porta/api/User/ChangePassword
         [Route("ChangePassword")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut]
         public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDTO changePassword)
         {
             try
             {
-                int userId = 4;
+                var identity = HttpContext.User.Identity as ClaimsIdentity;
+                int userId = JwtConfigurator.GetTokenIdUser(identity); 
                 string encryptedPassword = Encrypt.EncryptPassword(changePassword.lastPassword);
                 User user = await _userService.ValidatePassword(userId, encryptedPassword);
                 if (user == null)
                 {
-                    return BadRequest((new { message = "The password is incorrect" }));
+                    return BadRequest(new { message = "The password is incorrect" });
                 }
                 else 
                 {

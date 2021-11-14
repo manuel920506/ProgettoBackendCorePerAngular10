@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "o293Xo50j/c5RQYALoSTj2BUDlamH1bVwNw88Mx6kM3F4dFSX0YS53hLTW3fETb9i6AzIcKVJsg6hTkJlS/H7w==",
+  "dgSpecHash": "Oq2aJYQcsN1eeB2WgAnmz5lSrxeZLq1tmBvRBLH9vYT+CLj2FwzZIDGUwWDz0H4crjDP1fY18hkqFbW7tT5MFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mrodriguez\\Desktop\\corsi udemy\\angular net core\\provaBackEnd\\provaBackEnd\\provaBackEnd.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mrodriguez\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\mrodriguez\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\mrodriguez\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\mrodriguez\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

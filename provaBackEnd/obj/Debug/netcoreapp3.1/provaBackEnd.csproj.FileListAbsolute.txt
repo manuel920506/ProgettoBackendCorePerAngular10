@@ -81,3 +81,4 @@ C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackE
 C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\obj\Debug\netcoreapp3.1\provaBackEnd.csproj.CopyComplete
+C:\Users\mrodriguez\Desktop\corsi udemy\angular net core\provaBackEnd\provaBackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using provaBackEnd.Domain.IServices;
 using provaBackEnd.Domain.Models;
 using provaBackEnd.Utils;
@@ -15,9 +16,12 @@ namespace provaBackEnd.Controllers
     public class LoginController : ControllerBase
     {
         private readonly ILoginService _loginService;
-        public LoginController(ILoginService loginService)
+        private readonly IConfiguration _config;
+
+        public LoginController(ILoginService loginService, IConfiguration config)
         {
             _loginService = loginService;
+            _config = config;
         }
 
         [HttpPost]
@@ -26,13 +30,15 @@ namespace provaBackEnd.Controllers
             try
             {
                 user.Password = Encrypt.EncryptPassword(user.Password);
-                User validateExistence = await _loginService.ValidateUser(user);
-                if (validateExistence == null)
+                User validateUser = await _loginService.ValidateUser(user);
+                if (validateUser == null)
                 {
                     return BadRequest(new { message = "User or Password invalid!"});
-                } 
+                }
 
-                return Ok(new { message = "User " + user.UserNAme });
+                string tokenString = JwtConfigurator.GetToken(validateUser, _config);
+
+                return Ok(new { token = tokenString });
             }
             catch (Exception ex)
             {
